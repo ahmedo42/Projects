@@ -1,0 +1,33 @@
+body{
+    background-color:rgba(0, 0, 0, 0.788);
+}
+
+#numBar{
+    width: 40%;
+    margin:0 auto;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font:"Times New Roman";
+    font-style: oblique;
+    color: whitesmoke;
+}
+.wrapper{
+    width: 40%;
+    margin: 0 auto;
+    height: 20% ;
+}
+
+.num-button,.op-button,.master-button{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    background-color: whitesmoke;
+    
+}
+.num-button:hover,.op-button:hover,.master-button:hover{
+    opacity: 80%;
+}
